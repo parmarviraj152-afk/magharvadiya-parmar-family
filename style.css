@@ -1500,3 +1500,193 @@ footer{
     }
 
 }
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width:992px){
+
+.container{
+    width:90%;
+}
+
+.logo img{
+    width:60px;
+}
+
+.logo-text h2{
+    font-size:22px;
+}
+
+.logo-text p{
+    font-size:11px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h2{
+    font-size:26px;
+    letter-spacing:4px;
+}
+
+.hero-btn{
+    padding:15px 40px;
+}
+
+}
+
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+.navbar{
+    padding:15px 20px;
+}
+
+.logo{
+    gap:12px;
+}
+
+.logo img{
+    width:55px;
+}
+
+.logo-text h2{
+    font-size:18px;
+}
+
+.logo-text p{
+    display:none;
+}
+
+.language{
+    display:none;
+}
+
+.hero{
+    padding:120px 20px 60px;
+    text-align:center;
+}
+
+.hero-logo{
+    width:160px;
+}
+
+.hero h1{
+    font-size:34px;
+    line-height:1.4;
+}
+
+.hero h2{
+    font-size:20px;
+    letter-spacing:2px;
+    line-height:1.5;
+}
+
+.hero-line{
+    width:160px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.hero-btn{
+
+    width:230px;
+
+    padding:15px;
+
+    font-size:20px;
+
+}
+
+.section-title h2{
+
+    font-size:32px;
+
+}
+
+.section-title span{
+
+    font-size:15px;
+
+}
+
+.about-card{
+
+    flex-direction:column;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+}
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    gap:35px;
+
+    text-align:center;
+
+}
+
+}
+
+
+/* ===========================
+   Small Mobile
+=========================== */
+
+@media (max-width:480px){
+
+.hero-logo{
+
+    width:140px;
+
+}
+
+.hero h1{
+
+    font-size:28px;
+
+}
+
+.hero h2{
+
+    font-size:16px;
+
+    letter-spacing:1px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+.hero-btn{
+
+    width:200px;
+
+    font-size:18px;
+
+}
+
+.logo-text h2{
+
+    font-size:16px;
+
+}
+
+}
